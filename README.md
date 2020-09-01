@@ -5,6 +5,12 @@ This is for releasing the source code of the paper "Februus: Input Purification 
 The source code is written mostly on *Python 3* and *Pytorch*, so please help to download and install Python3 and Pytorch beforehand.
 
 
+There are some large files in the repo, so it is recommended to install git LFS: 
+```
+sudo apt-get install git-lfs
+git lfs install
+```
+
 # Requirements
 
 To install the requirements for this repo, run the following command: 
