@@ -8,8 +8,9 @@ The source code is written mostly on *Python 3* and *Pytorch*, so please help to
 # Requirements
 
 To install the requirements for this repo, run the following command: 
-
 ```
+git clone https://github.com/AdelaideAuto-IDLab/Februus.git
+cd Februus
 pip3 install -r requirements.txt
 ```
 
