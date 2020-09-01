@@ -79,7 +79,7 @@ class TestDataset(Dataset):
             image = self.transform(image)
 
         return (image, target)
-testset = TestDataset(csv_file='/home/user/datasets/Traffic_Sign/gtsrb-german-traffic-sign/Test_result.csv', root_dir="/home/user/datasets/Traffic_Sign/gtsrb-german-traffic-sign/test_images/", transform=test_transform)
+testset = TestDataset(csv_file='../datasets/gtsrb-german-traffic-sign/Test_result.csv', root_dir="../datasets/gtsrb-german-traffic-sign/test_images/", transform=test_transform)
 testloader = torch.utils.data.DataLoader(
     testset, batch_size=BATCH_SIZE, shuffle=False, pin_memory=True)
 classes = list(range(43))
