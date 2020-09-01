@@ -19,6 +19,10 @@ pip3 install -r requirements.txt
 
 For the convenience of the reviewers, we put the GTSRB and VGGFace2-val set that we used in [datasets](./datasets) folder. 
 Please *untar* files within the datasets folder (please don't change the name of the folder, or you'll need to adjust the location of the dataset later in the source code).
+```
+cd datasets
+tar -xzvf *.tar.gz
+```
 
 # Run the Februus
 
