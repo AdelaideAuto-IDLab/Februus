@@ -16,15 +16,15 @@ pip3 install -r requirements.txt
 
 # Dataset
 
-For the convenience of the reviewers, we put the GTSRB and VGGFace2-val set that we used in ./datasets folder. 
+For the convenience of the reviewers, we put the GTSRB and VGGFace2-val set that we used in [datasets](./datasets) folder. 
 Please *untar* files within the datasets folder (please don't change the name of the folder, or you'll need to adjust the location of the dataset later in the source code).
 
 # Run the Februus
 
 There are 3 sub-repo, each for a different visual classification task:
-- ./face: Face Recognition Task (VGGFace2)
-- ./scene: Scene Classification Task (CIFAR-10)
-- ./traffic_sign: Traffic Sign Recognition Task (GTSRB)
+- [face](./face): Face Recognition Task (VGGFace2)
+- [scene](./scene): Scene Classification Task (CIFAR-10)
+- [traffic_sign](./traffic_sign): Traffic Sign Recognition Task (GTSRB)
 
 There are two ways to run the method, the first on is to run: 
 
