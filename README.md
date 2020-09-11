@@ -54,14 +54,19 @@ There are 3 sub-repo, each for a different visual classification task:
 - [scene](./scene): Scene Classification Task (CIFAR-10)
 - [traffic_sign](./traffic_sign): Traffic Sign Recognition Task (GTSRB)
 
-There are two ways to run the method, the first on is to run the *Februus.py* file within each sub-repo: 
+There are two ways to run the method:
+
+- The first way is to run step-by-step with the Jupyter Notebook file *Februus.ipynb* inside of each repo. 
+
+
+- The second way is to run the *Februus.py* file within each sub-repo: 
 
 ```python
 # For example, to run Februus on Scene Classification task
 cd scene
 python3 Februus.py
 ```
-This is to run the Februus on the whole test set for that task.
+  This is to run the Februus on the whole test set for that task.
 
-The second ways is to run step-by-step with the Jupyter Notebook file *Februus.ipynb* inside of each repo. 
+
 
