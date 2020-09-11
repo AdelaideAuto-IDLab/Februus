@@ -18,6 +18,7 @@ To install the requirements for this repo, run the following command:
 git clone https://github.com/AdelaideAuto-IDLab/Februus.git
 cd Februus
 pip3 install -r requirements.txt
+pip3 install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 
