@@ -59,14 +59,14 @@ There are two ways to run the method:
 - The first way is to run step-by-step with the Jupyter Notebook file *Februus.ipynb* inside of each repo. 
 
 
-- The second way is to run the *Februus.py* file within each sub-repo: 
+- The second way is to run the *Februus.py* file within each sub-repo. This is to run the Februus on the whole test set for that task.: 
 
 ```python
 # For example, to run Februus on Scene Classification task
 cd scene
 python3 Februus.py
 ```
-  This is to run the Februus on the whole test set for that task.
+  
 
 
 
