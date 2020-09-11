@@ -33,7 +33,7 @@ There are some large files but with the limited storage of Github LFS, we put la
 ```
 https://universityofadelaide.box.com/s/u7di8pcirjc1flvnzwcu16l2ddujorb8
 ```
-
+  (alternative link: https://drive.google.com/file/d/1VVYoahY2nFrbdBvQCsRDgDUzT2l_UwoS/view?usp=sharing)
 - Put the *largefile.tar.gz* to the root of Februus repo folder (i.e. Februus/largefile.tar.gz)
 
 - Untar the largefile
