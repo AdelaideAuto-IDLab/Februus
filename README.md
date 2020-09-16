@@ -24,19 +24,22 @@ pip3 install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pyt
 
 # Large Files and Datasets
 
-For the convenience of the reviewers, we put the GTSRB and VGGFace2-val set that we used in [datasets](./datasets) folder. 
+For the convenience of the users, we put the GTSRB and VGGFace2-val set that we used in [datasets](./datasets) folder. 
 There are some large files but with the limited storage of Github LFS, we put large files on a separate link, please help to follow the below instructions: 
 
 
 - Download the *largefile* file (https://universityofadelaide.box.com/s/u7di8pcirjc1flvnzwcu16l2ddujorb8)
 
   (alternative link: https://drive.google.com/file/d/1VVYoahY2nFrbdBvQCsRDgDUzT2l_UwoS/view?usp=sharing)
-  
-- Put the *largefile.tar.gz* to the root of Februus repo folder (i.e. Februus/largefile.tar.gz)
 
-- Untar the largefile
+- Download the *BTSR* file for Belgium Traffic Sign Recognition (https://universityofadelaide.box.com/s/wo567ru7tuxrcfjz2ypbkarqat87eabw) 
+  
+- Put the *largefile.tar.gz*  and *BTSR.tar.gz* to the root of Februus repo folder (i.e. Februus/largefile.tar.gz)
+
+- Untar the files
 ```
 untar -xzvf largefile.tar.gz
+untar -xzvf BTSR.tar.gz
 ```
 - Untar the dataset within the datasets folder (please don't change the name of the folder, or you'll need to adjust the location of the dataset later in the source code).
 ```
@@ -47,10 +50,11 @@ tar -xzvf vggface2-val.tar.gz
 
 # Run the Februus
 
-There are 3 sub-repo, each for a different visual classification task:
+There are 4 sub-repo, each for a different visual classification task:
 - [face](./face): Face Recognition Task (VGGFace2)
 - [scene](./scene): Scene Classification Task (CIFAR-10)
 - [traffic_sign](./traffic_sign): Traffic Sign Recognition Task (GTSRB)
+- [BTSR](./BTSR): Belgium Traffic Sign Recognition (BTSR)
 
 There are two ways to run the method:
 
