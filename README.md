@@ -38,8 +38,8 @@ There are some large files but with the limited storage of Github LFS, we put la
 
 - Untar the files
 ```
-untar -xzvf largefile.tar.gz
-untar -xzvf BTSR.tar.gz
+tar -xzvf largefile.tar.gz
+tar -xzvf BTSR.tar.gz
 ```
 - Untar the dataset within the datasets folder (please don't change the name of the folder, or you'll need to adjust the location of the dataset later in the source code).
 ```
