@@ -2,6 +2,8 @@
 
 This is for releasing the source code of the paper "Februus: Input Purification Defense Against Trojan Attacks on Deep Neural Network Systems" 
 
+Archived Version: [Februus](https://arxiv.org/abs/1908.03369)
+
 The project is published as part of the following paper and if you re-use our work, please cite the following paper:
 
 
