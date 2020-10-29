@@ -52,8 +52,6 @@ There are some large files but with the limited storage of Github LFS, we put la
 
 - Download the *largefile* file (https://universityofadelaide.box.com/s/u7di8pcirjc1flvnzwcu16l2ddujorb8)
 
-  (alternative link: https://drive.google.com/file/d/1VVYoahY2nFrbdBvQCsRDgDUzT2l_UwoS/view?usp=sharing)
-
 - Download the *BTSR* file for Belgium Traffic Sign Recognition (https://universityofadelaide.box.com/s/wo567ru7tuxrcfjz2ypbkarqat87eabw) 
   
 - Put the *largefile.tar.gz*  and *BTSR.tar.gz* to the root of Februus repo folder (i.e. Februus/largefile.tar.gz)
