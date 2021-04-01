@@ -89,6 +89,7 @@ cd scene
 python3 Februus.py
 ```
   
-
+## TODO 
+- [ ] add the training code
 
 
